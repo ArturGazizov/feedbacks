@@ -63,7 +63,7 @@ if (Object.keys(this.props.thestate).map((it)=>this.props.thestate[it]).reduce((
 
 
 <tr><Statistic what={'keskiarvo '} number={String(this.makeaverage(this.props.thestate))}/></tr>
-<tr><Statistic what={'positiivista '} number={String(this.makepositiivista(this.props.thestate))}/></tr>
+<tr><Statistic what={'positiivista '} number={String(this.makepositiivista(this.props.thestate))}/>%</tr>
 
 
 </table>
